@@ -24,4 +24,19 @@ Use fenced code blocks with the language specified, like this:
 console.log('hello');
 ```
 
+---
+    ```html
+    <html><div><span>Hello World</span></div></html>
+    ```
+
+**Result:**
+
+```html
+<html>
+    <div>
+        <span>Hello World</span>
+    </div>
+</html>
+```
+
 For the list of supported languages you can use (similar to `js` for JavaScript), see [Supported languages](https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers).

@@ -2,8 +2,8 @@
 
 entries:
 - title: sidebar
-  product: Velma Application
-  version: 3.0
+  # product: Velma Documentation
+  # version: 3.0
   folders:
 
   - title:
