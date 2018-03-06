@@ -292,3 +292,12 @@ entries:
         - title: Troubleshooting pages
           url: /tag_troubleshooting.html
           output: web
+
+  - title: Velma Docs
+    output: web, pdf
+
+    folderitems:
+
+    - title: Web Fonts
+      url: /mydoc_docs_fonts.html
+      output: web, pdf
