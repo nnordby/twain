@@ -301,3 +301,11 @@ entries:
     - title: Web Fonts
       url: /mydoc_docs_fonts.html
       output: web, pdf
+
+    - title: VFS Tokens
+      url: /mydoc_docs_VFSTokens.html
+      output: web, pdf
+
+    - title: VFS Token Service
+      url: /mydoc_vfs_tokenservice_supportedTags.html
+      output: web, pdf
