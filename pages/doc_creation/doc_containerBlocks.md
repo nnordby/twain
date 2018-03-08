@@ -6,7 +6,7 @@ tags: [docs]
 summary: "Containers are the building blocks of print documents and are necessary for the proper viewing and publishing of library pieces. Created properly, containers will ensure the correct placement of objects on the page and will protect objects from malformed content in other containers. "
 sidebar: mydoc_sidebar
 permalink: doc_containerBlocks.html
-folder: product1 --Options: mydoc, product1, product2
+folder: doc_creation
 ---
 
 Foundational to all document containers is the parent container which will surround all other containers. The parent container ```#doc-container``` reinforces the document dimensions and will look similar to this:
