@@ -16,7 +16,7 @@ Print pieces should be created by using containers.  Containers help define docu
 #### Example 2:
 ![Figure 2](https://docs.google.com/drawings/d/1NqVHvLNoWtuM_2FanERWVnyubTWZ73WH8sSjMdmlQnY/pub?w=903&amp;h=586)
 
-{% include important.html content="Failing to create strict containers with ```overflow: hidden``` styling could have very negative consequences" %}
+{% include warning.html content="Failing to create strict containers with  ```overflow: hidden```  styling could have very negative consequences." %}
 
 Here’s how the HTML would look using the 2nd example:
 ![Figure 3](https://screencast-o-matic.com/screenshots/pp/VXh/1496174842858-82427.png)
