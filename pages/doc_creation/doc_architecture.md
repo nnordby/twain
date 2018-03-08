@@ -1,7 +1,7 @@
 ---
 title: Velma Document Setup
 keywords: BEM, Docs, setup, architecture
-last_updated: March 08, 2018
+last_updated: March 8, 2018
 tags: [docs]
 summary: "When we work at scale, we often find that we spend a large amount of our time deciphering, maintaining, and refactoring CSS. This is the reason we should focus so much on things like architectures, naming conventions, methodologies, etc.: because writing CSS is easy; looking after it is not."
 sidebar: mydoc_sidebar
@@ -16,7 +16,7 @@ Print pieces should be created by using containers.  Containers help define docu
 #### Example 2:
 ![Figure 2](https://docs.google.com/drawings/d/1NqVHvLNoWtuM_2FanERWVnyubTWZ73WH8sSjMdmlQnY/pub?w=903&amp;h=586)
 
-{% include warning.html content="Failing to create strict containers with   ```overflow: hidden```  styling could have very negative consequences." %}
+{% include warning.html content="Failing to create strict containers with  ```overflow: hidden```  styling could have very negative document consequences if custom content contaminates the document design." %}
 
 Here’s how the HTML would look using the 2nd example:
 ![Figure 3](https://screencast-o-matic.com/screenshots/pp/VXh/1496174842858-82427.png)
