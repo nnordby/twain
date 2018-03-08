@@ -24,4 +24,6 @@ As you can see, all elements are contained within a Section which is within a ma
 Using the BEM model and thoughtfully laid out using tabbed nesting, a container’s ID and corresponding element and modifier classes can be quickly identified and edited:
 ![Figure 4](https://screencast-o-matic.com/screenshots/pp/VXh/1496188249601-88534.png)
 
+{% include note.html content="This is my note. All the content I type here is treated as a single paragraph." %}
+
 {% include links.html %}
