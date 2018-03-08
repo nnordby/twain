@@ -15,6 +15,7 @@ Print pieces should be created by using containers.  Containers help define docu
 ![Figure 1](https://docs.google.com/drawings/d/1X3DMOJ0E49rAhF5NqTmuGwcumygTbttj3oDps06ifrs/pub?w=903&amp;h=586)
 #### Example 2:
 ![Figure 2](https://docs.google.com/drawings/d/1NqVHvLNoWtuM_2FanERWVnyubTWZ73WH8sSjMdmlQnY/pub?w=903&amp;h=586)
+
 Here’s how the HTML would look using the 2nd example:
 ![Figure 3](https://screencast-o-matic.com/screenshots/pp/VXh/1496174842858-82427.png)
 
