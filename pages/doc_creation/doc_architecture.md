@@ -29,5 +29,8 @@ Using the BEM model and thoughtfully laid out using tabbed nesting, a containerâ
 {% include important.html content="This is my important info. All the content I type here is treated as a single paragraph." %}
 {% include warning.html content="This is my warning. All the content I type here is treated as a single paragraph." %}
 {% include callout.html content="This is my primary callout. It has a border on the left whose color you define by passing a type parameter. I typically use this style of callout when I have more information that I want to share, often spanning multiple paragraphs. " type="default" %}
+{% include callout.html content="This is my danger callout. It has a border on the left whose color you define by passing a type parameter. I typically use this style of callout when I have more information that I want to share, often spanning multiple paragraphs. " type="danger" %}
+{% include callout.html content="This is my primary callout. It has a border on the left whose color you define by passing a type parameter. I typically use this style of callout when I have more information that I want to share, often spanning multiple paragraphs. " type="primary" %}
+{% include callout.html content="This is my success callout. It has a border on the left whose color you define by passing a type parameter. I typically use this style of callout when I have more information that I want to share, often spanning multiple paragraphs. " type="success" %}
 
 {% include links.html %}
