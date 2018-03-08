@@ -14,3 +14,6 @@ allowed-tags:
   - troubleshooting
   - mobile
   - docs
+  - vfs
+  - service
+  - rpc

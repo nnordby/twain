@@ -18,6 +18,36 @@ entries:
       output: pdf
       type: frontmatter
 
+  - title: Fulfillment
+    output: web, pdf
+
+    folderitems:
+
+    - title: Web Fonts
+      url: /mydoc_docs_fonts.html
+      output: web, pdf
+
+    - title: VFS Tokens
+      url: /mydoc_docs_VFSTokens.html
+      output: web, pdf
+
+    - title: VFS Token Service
+      url: /mydoc_vfs_tokenservice_supportedTags.html
+      output: web, pdf
+
+      subfolders:
+      - title: Doc Creation - Print
+        output: web
+        subfolderitems:
+
+        - title: Object Oriented CSS
+          url: /doc_OOCSS.html
+          output: web, pdf
+
+        - title: Architecture
+          url: /doc_architecture.html
+          output: web, pdf
+
   - title: Overview
     output: web, pdf
     folderitems:
@@ -292,20 +322,3 @@ entries:
         - title: Troubleshooting pages
           url: /tag_troubleshooting.html
           output: web
-
-  - title: Velma Docs
-    output: web, pdf
-
-    folderitems:
-
-    - title: Web Fonts
-      url: /mydoc_docs_fonts.html
-      output: web, pdf
-
-    - title: VFS Tokens
-      url: /mydoc_docs_VFSTokens.html
-      output: web, pdf
-
-    - title: VFS Token Service
-      url: /mydoc_vfs_tokenservice_supportedTags.html
-      output: web, pdf

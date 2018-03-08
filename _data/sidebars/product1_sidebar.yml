@@ -20,6 +20,13 @@ entries:
       output: pdf
       type: frontmatter
 
+  - title: Services
+    output: web, pdf
+    folderitems:
+    - title: RPC Product Service
+      url: /vfs_productService.html
+      output: web, pdf
+
   - title: Getting Started
     output: web, pdf
     folderitems:
