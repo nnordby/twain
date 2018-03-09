@@ -75,7 +75,8 @@ The resulting post on Facebook will appear in the user's wall:
 
 ##### Social Image Size
 Facebook's 1200px x 630px seems to be a good size that covers the other two (Linkedin 646 x 220, Twitter 440 x 220)
-[](https://makeawebsitehub.com/social-media-image-sizes-cheat-sheet/ )
+
+[https://makeawebsitehub.com/social-media-image-sizes-cheat-sheet/](https://makeawebsitehub.com/social-media-image-sizes-cheat-sheet/)
 
 
 {% include links.html %}
