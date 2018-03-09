@@ -12,9 +12,9 @@ folder: doc_creation
 #### Setting up the document
 Make sure the ```head``` section of your document looks like this:
 ```html
+{% raw %}
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,6 +39,7 @@ Make sure the ```head``` section of your document looks like this:
     }
   </style>
 </head>
+{% endraw %}
 ```
 Your document properties will need to be setup to accommodate the template properties identified in the tokens in the meta data.  
 
@@ -53,6 +54,7 @@ The resulting post on Facebook will appear in the user's wall:
 ---
 #### The Meta data
 ```html
+{% raw %}
 <!-- Open Graph Data -->
  <meta property="og:url" content="https://shared.velma.com/{{jobId}}/document" />
  <meta property="og:type" content="article" />
@@ -65,6 +67,7 @@ The resulting post on Facebook will appear in the user's wall:
  <meta name="twitter:description" content="{{template.socialDescription}}">
  <meta name="twitter:url" content="https://shared.velma.com/{{jobId}}/document">
  <meta name="twitter:image" content="{{template.socialImage}}">
+ {% endraw %}
 ```
 
 ##### Fulfillment Properties
