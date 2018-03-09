@@ -30,7 +30,8 @@ The reason for double rather than single hyphens and underscores is so that your
     .site-search__field {} /* Element */
     .site-search--full {} /* Modifier */
 
-The point of BEM is to tell other designers more about what a class doing from its name alone. By reading some HTML with some classes in, you can see how – if at all – the chunks are related; something might just be a component, something might be a child, or element, of that component, and something might be a variation or modifier of that component. To use an analogy/model, think how the following things and elements are related:
+{% include callout.html content="The point of BEM is to tell other designers more about what a class doing from its name alone. By reading some HTML with some classes in, you can see how – if at all – the chunks are related; something might just be a component, something might be a child, or element, of that component, and something might be a variation or modifier of that component. To use an analogy/model, think how the following things and elements are related:" type="info" %}
+
 
     .person {}
     .person__hand {}
