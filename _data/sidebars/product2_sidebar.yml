@@ -27,7 +27,7 @@ entries:
       url: /p2_landing_page.html
       output: web
 
-    - title: Overview
+    - title: Documentation Guide
       url: /documentationGuide.html
       output: web, pdf
 
