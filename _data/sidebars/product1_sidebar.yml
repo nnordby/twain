@@ -27,6 +27,10 @@ entries:
       url: /vfs_productService.html
       output: web, pdf
 
+    - title: Print Dispatching
+      url: /vfs_printDispatching.html
+      output: web, pdf
+
   - title: Getting Started
     output: web, pdf
     folderitems:

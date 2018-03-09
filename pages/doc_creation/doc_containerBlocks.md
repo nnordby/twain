@@ -27,6 +27,7 @@ Namespace beginning with doc-[containerName] (without the brackets)
 - Absolute positioning
 - Defined width and height
 - Overflow hidden
+
 A typical container style will look like this:
 
 ```css
