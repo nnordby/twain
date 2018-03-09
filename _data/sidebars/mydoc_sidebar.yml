@@ -48,6 +48,10 @@ entries:
           url: /doc_architecture.html
           output: web, pdf
 
+        - title: Container Blocks
+          url: /doc_containerBlocks.html
+          output: web, pdf
+
   - title: Overview
     output: web, pdf
     folderitems:
