@@ -41,7 +41,9 @@ Make sure the ```head``` section of your document looks like this:
 </head>
 ```
 Your document properties will need to be setup to accommodate the template properties identified in the tokens in the meta data.  
+
 {% include tip.html content="You **_don't_** need separate properties or tokens for the Open Graph Data and the Twitter data.  One set of properties will work for both of them." %}
+
 
 A properly formatted post will appear like this when the Facebook share is invoked:
 ![](http://screencast-o-matic.com/screenshots/u/fUaP/1501715171795-69114.png)
