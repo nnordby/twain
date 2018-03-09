@@ -28,7 +28,7 @@ topnav_dropdowns:
           url: /mydoc_docs_fonts.html
         - title: VFS
           url: /p1_landing_page.html
-        - title: Product 2
+        - title: Documentation Guide
           url: /p2_landing_page.html
         - title: Velma API (v4)
           external_url: http://build.velma.com/api/swagger/ui/index#/
