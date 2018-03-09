@@ -42,6 +42,7 @@ A typical container style will look like this:
     vertical-align: middle;
 }
 ```
-{% include callout.html content="Failing to create strict containers with  ```overflow: hidden```  styling could have very negative document consequences if custom content contaminates the document design." type="warning" %}
+{% include callout.html content="Failing to create strict containers with  ```overflow: hidden```  styling could have very negative document consequences if custom content contaminates the document design." type="danger" %}
+
 
 {% include links.html %}
