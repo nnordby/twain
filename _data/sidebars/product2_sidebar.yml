@@ -27,6 +27,10 @@ entries:
       url: /p2_landing_page.html
       output: web
 
+    - title: Overview
+      url: /documentationGuide.html
+      output: web, pdf
+
   - title: Simple Workflow
     output: web, pdf
     folderitems:
