@@ -46,10 +46,10 @@ Your document properties will need to be setup to accommodate the template prope
 
 
 A properly formatted post will appear like this when the Facebook share is invoked:
-![](http://screencast-o-matic.com/screenshots/u/fUaP/1501715171795-69114.png)
+![](https://screencast-o-matic.com/screenshots/u/fUaP/1501715171795-69114.png)
 
 The resulting post on Facebook will appear in the user's wall:
-![](http://screencast-o-matic.com/screenshots/u/fUaP/1501716666015-2906.png)
+![](https://screencast-o-matic.com/screenshots/u/fUaP/1501716666015-2906.png)
 ---
 #### The Meta data
 ```html
