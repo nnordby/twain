@@ -1,12 +1,12 @@
 ---
-title: Name of Document  <!--The name of the document  -->
-keywords: key1, key2, key 3  <!-- Enter the keywords that will assist in searches  -->
-last_updated: May 01, 2020  <!-- Change the date the document was updated -->
+title: Name of Document
+keywords: key1, key2, key 3
+last_updated: May 01, 2020
 tags: [docs]  
 summary: "Summarize the document and the information that it should cover."
-sidebar: product2_sidebar   <!-- Identify the navigation menu that this article will appear in  -->
-permalink: documentationGuide.html  <!-- permalink will be the markdown name of the document represented as an html Document -->
-folder: product2 <!-- Name of the document folder this article appears in  -->
+sidebar: product2_sidebar
+permalink: documentationGuide.html
+folder: product2
 ---
 
 ### Title 1
