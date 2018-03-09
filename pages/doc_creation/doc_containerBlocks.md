@@ -22,5 +22,25 @@ Foundational to all document containers is the parent container which will surro
     margin: 0 auto;
 }
 ```
+All child containers should have the following characteristics:
+Namespace beginning with doc-[containerName] (without the brackets)
+- Absolute positioning
+- Defined width and height
+- Overflow hidden
+A typical container style will look like this:
+
+```css
+#doc-headlineContainer {
+    width: 8.5in;
+    height: 1.1in;
+    top: 0in;
+    left: 0in;
+    position: absolute;
+    background-color: rgb(245, 160, 26);
+    display: block;
+    overflow: hidden;
+    vertical-align: middle;
+}
+```
 
 {% include links.html %}
