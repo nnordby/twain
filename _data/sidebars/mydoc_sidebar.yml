@@ -52,6 +52,10 @@ entries:
           url: /doc_containerBlocks.html
           output: web, pdf
 
+        - title: Social Posting
+          url: /doc_socialPosting.html
+          output: web, pdf
+
   - title: Overview
     output: web, pdf
     folderitems:
