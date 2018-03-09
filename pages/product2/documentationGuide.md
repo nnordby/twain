@@ -22,6 +22,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 #### Sub item 1
 
+{% include image.html file="company_logo.png" url="http://nsn.solutions" alt="NSN Solutions" caption="NSN Solutions Logo" %}
 
 {% include image.html file="vfs/Workflow_PrintDispatching.png" url="http://www.evernote.com/l/AVyKyTM7F11At6V6S1ehbchjpfmkcEDzmjI/" alt="Print Dispatching" caption="Print Dispatching" %}
 
