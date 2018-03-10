@@ -14,8 +14,7 @@ folder: mydoc
 - Go to [Font-Converter](https://font-converter.net/en) and upload the local font
 - Select only the WOFF2 conversion format and check the "Include HTML/CSS template" option
 
-
-> Need to confirm that WOFF2 is a font that Prince will work with.
+{% include warning.html content="Need to confirm that WOFF2 is a font that Prince will work with." %}
 
 ### Upload Converted Font
 - Unzip the downloaded font and go to the "fonts" folder and grab the converted WOFF2 file
