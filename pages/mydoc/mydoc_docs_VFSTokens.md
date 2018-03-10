@@ -39,7 +39,7 @@ In the Example 3 above, we can bring Address 1 and Address 2 together with a com
 ### User Token list with sample data
 
 ```yaml
-user
+user:
   address1: "5465 E. Terra Linda Way"
   address1and2: "5465 E. Terra Linda Way, Suite 253"
   address2: "Suite 253"
@@ -100,7 +100,7 @@ partner
 ```
 ---
 ### Template Token list with sample data
-```php
+```java
 template
   contactArea: "https://s3.amazonaws.com/velma-assets/library/27516/contactArea.html"
   description: "VFS Open House Flyer 1"
