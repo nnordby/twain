@@ -16,16 +16,13 @@ The Documentation Repository should be pulled from the NSN Documentation Git Rep
 <!-- TODO - Update link to Atom Snippet Article -->
 {% include tip.html content="Looking for the Atom snippets? [Click Here](https://www.google.com) " %}
 
-<!-- You can include tips in your documents to help information stand out beyond just simple   -->
-{% include tip.html content="You can include highlighted information by using the 'include' syntax.  See the documentation for more information and styles" %}
+### Folder Structure
 
-### Title 2
+All documents will be housed under the ```pages``` directory and depending on the functional area you are documenting or updating, the corresponding subfolder should be opened.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### Document requirements
 
-### Sub item 1
-
-{% include image.html file="company_logo.png" url="http://www.nsnsolutions.com" alt="NSN Solutions" caption="This is a sample caption" %}
+Every document that gets created requires some metadata to be included.  This is called 'Front Matter' (def: 'the pages, such as the title page and preface, that precede the main text of a book.') and is used by Jekyll to create files.
 
 
 {% include links.html %}
