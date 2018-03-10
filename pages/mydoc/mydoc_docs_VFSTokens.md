@@ -100,7 +100,7 @@ partner
 ```
 ---
 ### Template Token list with sample data
-```dotnet
+```php
 template
   contactArea: "https://s3.amazonaws.com/velma-assets/library/27516/contactArea.html"
   description: "VFS Open House Flyer 1"
