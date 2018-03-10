@@ -787,6 +787,11 @@ dd {margin-left:20px;}
     margin:0px;
     margin-bottom:6px;
 }
+.post-content img.right {
+    margin:0px;
+    margin-bottom:6px;
+    float: right;
+}
 .panel-heading {
     font-weight: bold;
 }
