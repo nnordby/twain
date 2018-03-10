@@ -38,7 +38,7 @@ In the Example 3 above, we can bring Address 1 and Address 2 together with a com
 ---
 ### User Token list with sample data
 
-```xml
+```yaml
 user
   address1: "5465 E. Terra Linda Way"
   address1and2: "5465 E. Terra Linda Way, Suite 253"
