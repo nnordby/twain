@@ -19,6 +19,7 @@ The Documentation Repository should be pulled from the NSN Documentation Git Rep
 ### Folder Structure
 
 All documents will be housed under the ```pages``` directory and depending on the functional area you are documenting or updating, the corresponding subfolder should be opened.
+{% include image.html file="documentation/folderStructure.png" alt="Documentation Folders" caption="Documentation Folders" %}
 
 ### Document requirements
 
