@@ -71,7 +71,7 @@ user
 ```
 ---
 ### Partner Token list with sample data
-```xml
+```js
 partner
   address1: "683 Stony Radial"
   address1and2: "683 Stony Radial"
