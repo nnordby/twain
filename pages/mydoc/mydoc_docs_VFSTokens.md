@@ -71,8 +71,8 @@ user:
 ```
 ---
 ### Partner Token list with sample data
-```js
-partner
+```yaml
+partner:
   address1: "683 Stony Radial"
   address1and2: "683 Stony Radial"
   addressSingleLine: "683 Stony Radial, Blairsburg, MA, 09464"
@@ -100,8 +100,8 @@ partner
 ```
 ---
 ### Template Token list with sample data
-```java
-template
+```yaml
+template:
   contactArea: "https://s3.amazonaws.com/velma-assets/library/27516/contactArea.html"
   description: "VFS Open House Flyer 1"
   disclaimerArea: "https://s3.amazonaws.com/velma-assets/library/27516/disclaimerArea.html"
