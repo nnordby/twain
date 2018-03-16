@@ -63,7 +63,7 @@ entries:
         subfolderitems:
 
         - title: Marketing History
-          url: /doc_OOCSS.html
+          url: /marketing-history.html
           output: web, pdf
 
         - title: Corp Marketing
