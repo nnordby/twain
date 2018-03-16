@@ -9,18 +9,47 @@ permalink: autoEmailSubmitterSchedule.html
 folder: auto_campaigns
 ---
 
-### Title 1
+The tool looks at the trigger date/time of records in the "auto_campaign_email" table. If the trigger time is "now" or has already passed, the tool will process the data list and submit emails to all recipients for the order.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{% include important.html content="Trigger dates marked for the year 2100 indicate a need for manual handling." %}
 
-<!-- You can include tips in your documents to help information stand out beyond just simple   -->
-{% include tip.html content="You can include highlighted information by using the 'include' syntax.  See the documentation for more information and styles" %}
+{% include callout.html content="The tool runs daily at the following scheduled times:
+	* Hourly from 2:00 AM to 8:00 AM
+	* Every half hour from 8:00 AM to 6:30 PM" type="info" %}
 
-### Title 2
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-#### Sub item 1
+### Full Schedule
+
+
+	* 2:00 AM
+	* 3:00 AM
+	* 4:00 AM
+	* 5:00 AM
+	* 6:00 AM
+	* 7:00 AM
+	* 8:00 AM
+	* 8:30 AM
+	* 9:00 AM
+	* 9:30 AM
+	* 10:00 AM
+	* 10:30 AM
+	* 11:00 AM
+	* 12:30 AM
+	* 12:00 PM
+	* 12:30 PM
+	* 1:00 PM
+	* 1:30 PM
+	* 2:00 PM
+	* 2:30 PM
+	* 3:00 PM
+	* 3:30 PM
+	* 4:00 PM
+	* 4:30 PM
+	* 5:00 PM
+	* 5:30 PM
+	* 6:00 PM
+	* 6:30 PM
 
 
 
