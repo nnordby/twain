@@ -11,7 +11,7 @@ folder: auto_campaigns
 
 The tool looks at the trigger date/time of records in the "auto_campaign_email" table. If the trigger time is "now" or has already passed, the tool will process the data list and submit emails to all recipients for the order.
 
-{% include important.html content="**Trigger dates marked for the year 2100 indicate a need for manual handling.**" %}
+{% include important.html content="Trigger dates marked for the **year 2100** indicate a need for manual handling." %}
 
 {% include callout.html content="The tool runs daily at the following scheduled times:
 	* Hourly from 2:00 AM to 8:00 AM
