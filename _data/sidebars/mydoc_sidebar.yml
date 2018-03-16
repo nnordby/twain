@@ -18,6 +18,21 @@ entries:
       output: pdf
       type: frontmatter
 
+  - title: Auto Campaigns
+    output: web, pdf
+    folderitems:
+    - title: Setup
+      url: /mydoc_docs_fonts.html
+      output: web, pdf
+
+    - title: Submitting
+      url: /mydoc_docs_VFSTokens.html
+      output: web, pdf
+
+    - title: Settings
+      url: /mydoc_vfs_tokenservice_supportedTags.html
+      output: web, pdf
+
   - title: Fulfillment
     output: web, pdf
 
