@@ -47,12 +47,15 @@ entries:
   - title: Corp Admin
     output: web, pdf
     folderitems:
+
     - title: Branch Management
       url: /mydoc_docs_fonts.html
       output: web, pdf
+
     - title: Contacts
       url: /mydoc_docs_fonts.html
       output: web, pdf
+
     - title: Corp Library Management
       url: /mydoc_docs_fonts.html
       output: web, pdf
