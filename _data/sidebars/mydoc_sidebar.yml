@@ -67,7 +67,7 @@ entries:
           output: web, pdf
 
         - title: Corp Marketing
-          url: /doc_OOCSS.html
+          url: /marketing.html
           output: web, pdf
 
   - title: Fulfillment
