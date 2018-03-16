@@ -33,6 +33,10 @@ entries:
       url: /mydoc_vfs_tokenservice_supportedTags.html
       output: web, pdf
 
+    - title: Auto Email Submitter
+      url: /autoEmailSubmitterSchedule.html
+      output: web, pdf
+
   - title: Fulfillment
     output: web, pdf
 
