@@ -4,7 +4,7 @@ keywords: documentation, guide, getting started, GDP, Atom
 last_updated: Mar 09, 2018
 tags: [documentation]  
 summary: "Good documentation practice (GDP) is a term to describe standards by which documents are created and maintained.  Consistent documentation structure and an adherence to a common set of documentation guidelines will ensure the efficient publishing, consumption, and maintenance of a robust library of helpful information."
-sidebar: product2_sidebar
+sidebar: documentation_sidebar
 permalink: documentationGuide.html
 folder: product2
 ---
