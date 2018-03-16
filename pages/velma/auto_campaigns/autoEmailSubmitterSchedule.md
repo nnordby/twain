@@ -2,10 +2,10 @@
 title: Auto Email Submitter Schedule
 keywords: Auto, Email, submitter, auto-campaign, Corp Marketing, email submitter, auto_campaign_email, trigger, schedule
 last_updated: Mar 16, 2018
-tags: [docs]
+tags: [auto_campaigns, velma]
 summary: "The Auto Email Submitter tool is responsible for sending out queued emails from the Auto-Campaign and Corp Marketing systems."
 sidebar: mydoc_sidebar
-permalink: autoEmailSubmitterSchedule.html 
+permalink: autoEmailSubmitterSchedule.html
 folder: auto_campaigns
 ---
 

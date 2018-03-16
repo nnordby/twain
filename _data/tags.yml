@@ -17,3 +17,4 @@ allowed-tags:
   - vfs
   - service
   - rpc
+  - auto_campaigns
