@@ -1,5 +1,5 @@
 ---
-title: Corp Marketing: Marketing
+title: Corp Marketing - Marketing
 keywords: corp marketing, marketing, corporate
 last_updated: March 16, 2018
 tags: [corp, velma, marketing]

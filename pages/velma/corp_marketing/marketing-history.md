@@ -1,5 +1,5 @@
 ---
-title: Corp Marketing: Marketing History
+title: Corp Marketing - Marketing History
 keywords: corp marketing, marketing history, corporate
 last_updated: March 16, 2018
 tags: [corp, velma, marketing]
