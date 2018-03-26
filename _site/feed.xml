@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>twain</title>
+        <description>Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features.</description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Mon, 19 Mar 2018 04:48:55 -0600</pubDate>
+        <lastBuildDate>Mon, 19 Mar 2018 04:48:55 -0600</lastBuildDate>
+        <generator>Jekyll v3.6.2</generator>
+        
+        <item>
+            <title>Velma Release 3.0.42.514</title>
+            <description>&lt;h3 id=&quot;fixes&quot;&gt;Fixes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;VEL-2617 - Advanced Search: Date picker controls overlapping the calendar&lt;/li&gt;
+  &lt;li&gt;VEL-2536 - Email: Recipient List - Contacts Not Selecting Correctly with Search&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;improvements&quot;&gt;Improvements&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;VEL-2383 - Teams notes associations clickable icons and tooltip&lt;/li&gt;
+  &lt;li&gt;VEL-2560 - VFS.Web - Add JSON prettify to Job Details command packet view.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+            <pubDate>Tue, 06 Mar 2018 00:00:00 -0700</pubDate>
+            <link>http://localhost:4000/2018-03-06-Velma-Release-3-0-42-514.html</link>
+            <guid isPermaLink="true">http://localhost:4000/2018-03-06-Velma-Release-3-0-42-514.html</guid>
+            
+            <category>news</category>
+            
+            <category>getting_started</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Nate's Sample post</title>
+            <description>&lt;h2 id=&quot;nates-sample-post&quot;&gt;Nate’s Sample Post&lt;/h2&gt;
+
+&lt;p&gt;Mind if I do a J? hello, gentlemen. You are the bereaved? What the fuck are you talking– He’s had enough. He no longer digs her. Thank you. Thank you. See what happens, Lebowski?. Friends like these, huh, Gary? You gotta get in on the other side. It’s the Foundation’s. or who’ll have any interest Uh, you know. But… Mark it zero! Hey, hey, I’m not messing with your special lady. Transmit the remains To you in a receptacle. Hey, is this, uh, is this him with Nancy? Brother Seamus? Devil-may-care. About the rug. and without the use of my legs. Oh, the usual. Bowl, drive around., No, no joke. This guy fucking walks. I’ve never been more certain Life does not stop and start Yeah, well, The Dude abides.. I just bought the fucking car last week! Or making with the funny stuff? in raising the child himself. drive north on the 405. They will call you Stay out of Malibu, deadbeat! That rug really tied the room together, You’re right, Dude. I got to thinking. But that’s just because This was a valued rug.. Are you surprised at my tears, sir? I’ll fuck you in the ass Next Wednesday instead. you guys aren’t privy to all the new shit, so…, I fuck you. What the fuck is this? As I was crawlin’ in that we were police exactly. but to tell these bums to do whatever is necessary Mr. Lebowski asked me to repeat that. That makes me feel very warm inside. Our guest has to be getting along, Mrs. Lebowski. I can’t blow that far.. Won’t give a shit about. And a good man. This is the guy Huh? Yeah, but my– Are you gonna find these guys or, you know, A world of pain. He’s had enough. He no longer digs her. Get out of that fucking car, man. Well, I guess I seen somethin’ Say, Dude. Whatever the cost? He fits right in there, I know how he likes to present himself..&lt;/p&gt;
+
+&lt;p&gt;My rug. Or, uh, Duder, or, you know, uh, el Duderino, I kept my foot on the gas Hey, Walter, come on, it’s just– Will you just take it easy? Ha ha ha ha ha. Walter: What’s mine is mine. “We have Bunnie.” They’re not literally his children. Donny: Where you goin’, Dude? Her life was in our hands, man. Made me laugh to beat the band. Mr. Lebowski.. He thought I had your father’s money. Oh, fuck it. The beauty of this is its simplicity. To the man in me I got $18. Come on, man,. I’m sorry. It was an accident. Uh, The Dude minds. Doo doo doo, That’s for the urn. What a wonderful feeling Where the fuck are you goin’, man? Hey, you know what? forget about it, huh? Oh? I don’t like your jerk-off behavior, This fucking whore– feelings.. Phone’s ringing, Dude. With a billion stars all around so he’s a cripple– There was no…, Come on, fuckhead. There’s a little he would ask That we’re both, We have it! I don’t drive a car, I don’t fuckin’ ride in a car, And as for compensation Well, that’s your perception. It’s the Foundation’s. Walter, come on, he’s got a sword. Isn’t it, Larry? and that’s The Dude,. What? Your rug was in the car? You want me to blow on your, uh, toes? Weaklings. Here’s the $4.00., As for this kidnapping… it contravenes a number of the league’s bylaws That had not occurred to us, Dude. which would place him high in the running on the portable phone with instructions The bar’s over there. who will look at it for you..&lt;/p&gt;
+</description>
+            <pubDate>Mon, 05 Mar 2018 00:00:00 -0700</pubDate>
+            <link>http://localhost:4000/sample.html</link>
+            <guid isPermaLink="true">http://localhost:4000/sample.html</guid>
+            
+            <category>news</category>
+            
+            <category>getting_started</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Sample post</title>
+            <description>&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries&lt;/p&gt;
+
+&lt;h2 id=&quot;heading&quot;&gt;Heading&lt;/h2&gt;
+
+&lt;p&gt;but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
+
+&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries&lt;/p&gt;
+
+</description>
+            <pubDate>Fri, 26 Feb 2016 00:00:00 -0700</pubDate>
+            <link>http://localhost:4000/samplepost.html</link>
+            <guid isPermaLink="true">http://localhost:4000/samplepost.html</guid>
+            
+            <category>news</category>
+            
+            <category>getting_started</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Welcome to Jekyll!</title>
+            <description>&lt;p&gt;Theme updates:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Permalinks&lt;/li&gt;
+  &lt;li&gt;Kramdown&lt;/li&gt;
+  &lt;li&gt;URL specified in config file&lt;/li&gt;
+  &lt;li&gt;removed PDF output&lt;/li&gt;
+  &lt;li&gt;removed some of the alternative layouts&lt;/li&gt;
+  &lt;li&gt;added blog feature&lt;/li&gt;
+  &lt;li&gt;sidebars configurable per page&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+            <pubDate>Wed, 24 Feb 2016 00:00:00 -0700</pubDate>
+            <link>http://localhost:4000/myupdate.html</link>
+            <guid isPermaLink="true">http://localhost:4000/myupdate.html</guid>
+            
+            <category>news</category>
+            
+            
+        </item>
+        
+        <item>
+            <title>Test post from last year</title>
+            <description>&lt;p&gt;This is just a test post from the previous year.&lt;/p&gt;
+
+</description>
+            <pubDate>Sun, 12 Apr 2015 00:00:00 -0600</pubDate>
+            <link>http://localhost:4000/test-post-from-last-year.html</link>
+            <guid isPermaLink="true">http://localhost:4000/test-post-from-last-year.html</guid>
+            
+            <category>news</category>
+            
+            
+        </item>
+        
+    </channel>
+</rss>

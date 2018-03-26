@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Quick guides and sample data for using different types of tokens within a document.">
+<meta name="keywords" content="docs,  tokens, token, VFS, vf-var, vf-show, vf token">
+<title>VFS Tokens and sample Data | Velma Site Documentation</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-green.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="twain" href="http://localhost:4000/feed.xml">
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> Velma Site Documentation</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="news">News</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="mydoc_docs_fonts.html">Velma Site Documentation</a></li>
+                        
+                        
+                        
+                        <li><a href="p1_landing_page.html">VFS</a></li>
+                        
+                        
+                        
+                        <li><a href="p2_landing_page.html">Documentation Guide</a></li>
+                        
+                        
+                        
+                        <li><a href="http://build.velma.com/api/swagger/ui/index#/" target="_blank">Velma API (v4)</a></li>
+                        
+                        
+                        
+                        <li><a href="http://readme.velma.com/" target="_blank">VFS API documentation</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+			<li>
+
+
+
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:nathan.nordby@gmail.com?subject=Velma Site Documentation feedback&body=I have some feedback about the VFS Tokens and sample Data page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+
+</li>
+
+		
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="VFS Tokens and sample Data">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+<ul id="mysidebar" class="nav">
+  <li class="sidebarTitle">Velma Documentation </li>
+  
+  
+  
+      
+  
+  <li>
+      <a href="#">Auto Campaigns</a>
+      <ul>
+          
+          
+          
+          <li><a href="mydoc_docs_fonts.html">Setup</a></li>
+          
+          
+          
+          
+          
+          
+          <li class="active"><a href="mydoc_docs_VFSTokens.html">Submitting</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_vfs_tokenservice_supportedTags.html">Settings</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="autoEmailSubmitterSchedule.html">Auto Email Submitter</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Contacts</a>
+      <ul>
+          
+          
+          
+          <li><a href="mydoc_docs_fonts.html">Setup</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Corp Admin</a>
+      <ul>
+          
+          
+          
+          <li><a href="mydoc_docs_fonts.html">Branch Management</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_docs_fonts.html">Contacts</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_docs_fonts.html">Corp Library Management</a></li>
+          
+          
+          
+          <li class="subfolders">
+              <a href="#">Corp Marketing</a>
+              <ul>
+                  
+                  
+                  
+                  <li><a href="marketing-history.html">Marketing History</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a href="marketing.html">Corp Marketing</a></li>
+                  
+                  
+                  
+              </ul>
+          </li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Fulfillment</a>
+      <ul>
+          
+          
+          
+          <li><a href="mydoc_docs_fonts.html">Web Fonts</a></li>
+          
+          
+          
+          
+          
+          
+          <li class="active"><a href="mydoc_docs_VFSTokens.html">VFS Tokens</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_vfs_tokenservice_supportedTags.html">VFS Token Service</a></li>
+          
+          
+          
+          <li class="subfolders">
+              <a href="#">Doc Creation - Print</a>
+              <ul>
+                  
+                  
+                  
+                  <li><a href="doc_OOCSS.html">Object Oriented CSS</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a href="doc_architecture.html">Architecture</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a href="doc_containerBlocks.html">Container Blocks</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a href="doc_socialPosting.html">Social Posting</a></li>
+                  
+                  
+                  
+              </ul>
+          </li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Overview</a>
+      <ul>
+          
+          
+          
+          <li><a href="index.html">Get started</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_introduction.html">Introduction</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_supported_features.html">Supported features</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_about.html">About the theme author</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_support.html">Support</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Release Notes</a>
+      <ul>
+          
+          
+          
+          <li><a href="mydoc_release_notes_60.html">6.0 Release notes</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_release_notes_50.html">5.0 Release notes</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Installation</a>
+      <ul>
+          
+          
+          
+          <li><a href="mydoc_about_ruby_gems_etc.html">About Ruby, Gems, Bundler, etc.</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_install_jekyll_on_mac.html">Install Jekyll on Mac</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_install_jekyll_on_windows.html">Install Jekyll on Windows</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Authoring</a>
+      <ul>
+          
+          
+          
+          <li><a href="mydoc_pages.html">Pages</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_posts.html">Posts</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_lists.html">Lists</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_conditional_logic.html">Conditional logic</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_content_reuse.html">Content reuse</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_collections.html">Collections</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_webstorm_text_editor.html">WebStorm editor tips</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_atom_text_editor.html">Atom editor tips</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Navigation</a>
+      <ul>
+          
+          
+          
+          <li><a href="mydoc_sidebar_navigation.html">Sidebar navigation</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_yaml_tutorial.html">YAML tutorial in the context of Jekyll</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_tags.html">Tags</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_series.html">Series</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Formatting</a>
+      <ul>
+          
+          
+          
+          <li><a href="mydoc_adding_tooltips.html">Tooltips</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_alerts.html">Alerts</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_icons.html">Icons</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_images.html">Images</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_code_samples.html">Code samples</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_labels.html">Labels</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_hyperlinks.html">Links</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_navtabs.html">Navtabs</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_tables.html">Tables</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_syntax_highlighting.html">Syntax highlighting</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_workflow_maps.html">Workflow maps</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Handling reviews</a>
+      <ul>
+          
+          
+          
+          <li><a href="mydoc_commenting_on_files.html">Commenting on files</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Publishing</a>
+      <ul>
+          
+          
+          
+          <li><a href="mydoc_build_arguments.html">Build arguments</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_themes.html">Themes</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_generating_pdfs.html">Generating PDFs</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_help_api.html">Help APIs and UI tooltips</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_search_configuration.html">Search configuration</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_iterm_profiles.html">iTerm profiles</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_push_build_to_server.html">Pushing builds to server</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_publishing_github_pages.html">Publishing on Github Pages</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Special layouts</a>
+      <ul>
+          
+          
+          
+          <li><a href="mydoc_kb_layout.html">Knowledge-base layout</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_glossary.html">Glossary layout</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_faq_layout.html">FAQ layout</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a href="mydoc_shuffle.html">Shuffle layout</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Troubleshooting</a>
+      <ul>
+          
+          
+          
+          <li><a href="mydoc_troubleshooting.html">Troubleshooting</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a href="#">Tag archives</a>
+      <ul>
+          
+          
+          
+          <li><a href="mydoc_tag_archives_overview.html">Tag archives overview</a></li>
+          
+          
+          
+          <li class="subfolders">
+              <a href="#">Tag archive pages</a>
+              <ul>
+                  
+                  
+                  
+                  <li><a href="tag_formatting.html">Formatting pages</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a href="tag_navigation.html">Navigation pages</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a href="tag_content_types.html">Content types pages</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a href="tag_publishing.html">Publishing pages</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a href="tag_special_layouts.html">Special layout pages</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a href="tag_collaboration.html">Collaboration pages</a></li>
+                  
+                  
+                  
+                  
+                  
+                  <li><a href="tag_troubleshooting.html">Troubleshooting pages</a></li>
+                  
+                  
+                  
+              </ul>
+          </li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+      
+      <!-- if you aren't using the accordion, uncomment this block:
+         <p class="external">
+             <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+         </p>
+         -->
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+            </div>
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-md-9" id="tg-sb-content">
+            <div class="post-header">
+   <h1 class="post-title-main">VFS Tokens and sample Data</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+    <div class="summary">Quick guides and sample data for using different types of tokens within a document.</div>
+   
+
+    
+    
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+<div id="toc"></div>
+
+    
+
+
+    
+
+    <a target="_blank" href="https://github.com/nnordby/twain/blob/gh-pages/pages/mydoc/mydoc_docs_VFSTokens.md" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
+
+    
+
+
+    
+
+  <p>Tokens are used within HTML to create merged output from data derived from a user’s accounts, a partner selected for a particular piece, or from the library’s document properties.  They are constructed in a variety of ways but always contain the parent node first (the underlined un-indented items below) followed by a period and then the child property (indented items); e.g. <code class="highlighter-rouge">user.cellPhone</code>
+Most common will be the use of the standard replace token <code class="highlighter-rouge">vf-var="user.cellPhone"</code> but it is also acceptable to use the legacy  <code class="highlighter-rouge">{{user.cellPhone}}</code>  (formerly: <code class="highlighter-rouge">$$user.cellPhone$$</code>)  when the circumstance requires it, such as constructing a URL.  You can also use another special token to hide an entire element if variable data is missing:  <code class="highlighter-rouge">vf-show="user.cellPhone"</code>.  In other words, “Show the element if the selected data is present. If it’s not, don’t.”
+Another important token is <code class="highlighter-rouge">vf-insert</code>.  This token will insert another file into the area defined and would be applied as Example 4 demonstrates below.</p>
+
+<h5 id="example-1">Example 1</h5>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;span</span> <span class="na">vf-var=</span><span class="s">"user.cellPhone"</span> <span class="na">vf-show=</span><span class="s">"user.cellPhone"</span><span class="nt">&gt;</span>Cell: 208-854-7900<span class="nt">&lt;/span&gt;</span>
+</code></pre></div></div>
+<h5 id="example-2">Example 2</h5>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">vf-show=</span><span class="s">"user.cellPhone"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;span&gt;</span>Cell: <span class="nt">&lt;/span&gt;&lt;span</span> <span class="na">vf-var=</span><span class="s">"user.cellPhone"</span><span class="nt">&gt;</span>208-854-7900<span class="nt">&lt;/span&gt;</span>
+ <span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<h5 id="example-3">Example 3</h5>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;span</span> <span class="na">vf-var=</span><span class="s">"user.address1&gt;5465 E. Terra Linda Way&lt;/span&gt; &lt;span vf-show="</span><span class="na">user</span><span class="err">.</span><span class="na">address2</span><span class="err">"</span><span class="nt">&gt;</span> ,<span class="nt">&lt;/span&gt;</span> <span class="nt">&lt;span</span> <span class="na">vf-var=</span><span class="s">"user.address2"</span> <span class="na">vf-show=</span><span class="s">"user.address2"</span><span class="nt">&gt;</span>Suite 293<span class="nt">&lt;/span&gt;</span>
+</code></pre></div></div>
+<h5 id="example-4">Example 4</h5>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"contactAreaContainer"</span> <span class="na">vf-insert=</span><span class="s">"template.contactArea"</span><span class="nt">&gt;</span>Contact Information<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<p>In the Example 1 above, the entire span will be removed if the cell phone is missing.  If it is present, the contents of the span (Cell: 208-854-7900) will be replaced with just the cell phone.  To pre-pend variable data with a label, follow Example 2.
+In the Example 2 above, we can pre-pend variable data with a label, but remove the entire container if the cell phone value is missing, thereby avoiding a hanging label with nothing attached to it.
+In the Example 3 above, we can bring Address 1 and Address 2 together with a comma separating the two fields, but remove both the comma and the Address 2 line if there is no Address 2 present.</p>
+
+<hr />
+<h3 id="user-token-list-with-sample-data">User Token list with sample data</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">user</span><span class="pi">:</span>
+  <span class="na">address1</span><span class="pi">:</span> <span class="s2">"</span><span class="s">5465</span><span class="nv"> </span><span class="s">E.</span><span class="nv"> </span><span class="s">Terra</span><span class="nv"> </span><span class="s">Linda</span><span class="nv"> </span><span class="s">Way"</span>
+  <span class="na">address1and2</span><span class="pi">:</span> <span class="s2">"</span><span class="s">5465</span><span class="nv"> </span><span class="s">E.</span><span class="nv"> </span><span class="s">Terra</span><span class="nv"> </span><span class="s">Linda</span><span class="nv"> </span><span class="s">Way,</span><span class="nv"> </span><span class="s">Suite</span><span class="nv"> </span><span class="s">253"</span>
+  <span class="na">address2</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Suite</span><span class="nv"> </span><span class="s">253"</span>
+  <span class="s">addressSingleLine:"5465 E. Terra Linda Way, Suite 253, Nampa, ID, 83687"</span>
+  <span class="na">cellPhone</span><span class="pi">:</span> <span class="s2">"</span><span class="s">208-854-7911"</span>
+  <span class="na">city</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Nampa"</span>
+  <span class="na">cityStateZip</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Nampa,</span><span class="nv"> </span><span class="s">ID</span><span class="nv"> </span><span class="s">83687"</span>
+  <span class="na">companyName</span><span class="pi">:</span> <span class="s2">"</span><span class="s">1st</span><span class="nv"> </span><span class="s">Demo</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">Company"</span>
+  <span class="na">disclaimer</span><span class="pi">:</span> <span class="s2">"</span><span class="s">1st</span><span class="nv"> </span><span class="s">Demo</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">Co.</span><span class="nv"> </span><span class="s">5950</span><span class="nv"> </span><span class="s">Symphony</span><span class="nv"> </span><span class="s">Woods</span><span class="nv"> </span><span class="s">Rd,</span><span class="nv"> </span><span class="s">STE</span><span class="nv"> </span><span class="s">312,</span><span class="nv"> </span><span class="s">Columbia,</span><span class="nv"> </span><span class="s">MD</span><span class="nv"> </span><span class="s">21044.</span><span class="nv"> </span><span class="s">NMLS</span><span class="nv"> </span><span class="s">#1324XXX.</span><span class="nv"> </span><span class="s">1st</span><span class="nv"> </span><span class="s">Demo</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">Co.</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">true</span><span class="nv"> </span><span class="s">legal</span><span class="nv"> </span><span class="s">name</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">1st</span><span class="nv"> </span><span class="s">Demo</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">may</span><span class="nv"> </span><span class="s">be</span><span class="nv"> </span><span class="s">abbreviated</span><span class="nv"> </span><span class="s">as</span><span class="nv"> </span><span class="s">1st</span><span class="nv"> </span><span class="s">Demo</span><span class="nv"> </span><span class="s">Mortgage.</span><span class="nv">  </span><span class="s">Not</span><span class="nv"> </span><span class="s">an</span><span class="nv"> </span><span class="s">offer</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">credit</span><span class="nv"> </span><span class="s">or</span><span class="nv"> </span><span class="s">commitment</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">make</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">loan;</span><span class="nv"> </span><span class="s">all</span><span class="nv"> </span><span class="s">approvals</span><span class="nv"> </span><span class="s">are</span><span class="nv"> </span><span class="s">subject</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">underwriting</span><span class="nv"> </span><span class="s">guidelines</span><span class="nv"> </span><span class="s">including</span><span class="nv"> </span><span class="s">but</span><span class="nv"> </span><span class="s">not</span><span class="nv"> </span><span class="s">limited</span><span class="nv"> </span><span class="s">to:</span><span class="nv"> </span><span class="s">acceptable</span><span class="nv"> </span><span class="s">current</span><span class="nv"> </span><span class="s">credit</span><span class="nv"> </span><span class="s">worthiness,</span><span class="nv"> </span><span class="s">income</span><span class="nv"> </span><span class="s">history,</span><span class="nv"> </span><span class="s">etc.</span><span class="nv"> </span><span class="s">Loan</span><span class="nv"> </span><span class="s">programs</span><span class="nv"> </span><span class="s">&amp;</span><span class="nv"> </span><span class="s">options</span><span class="nv"> </span><span class="s">are</span><span class="nv"> </span><span class="s">subject</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">change</span><span class="nv"> </span><span class="s">at</span><span class="nv"> </span><span class="s">any</span><span class="nv"> </span><span class="s">time.</span><span class="nv"> </span><span class="s">1st</span><span class="nv"> </span><span class="s">Demo</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">not</span><span class="nv"> </span><span class="s">affiliated</span><span class="nv"> </span><span class="s">with,</span><span class="nv"> </span><span class="s">or</span><span class="nv"> </span><span class="s">an</span><span class="nv"> </span><span class="s">agent</span><span class="nv"> </span><span class="s">or</span><span class="nv"> </span><span class="s">division</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">governmental</span><span class="nv"> </span><span class="s">agency</span><span class="nv"> </span><span class="s">or</span><span class="nv"> </span><span class="s">depository</span><span class="nv"> </span><span class="s">institution.</span><span class="nv"> </span><span class="s">1st</span><span class="nv"> </span><span class="s">Demo</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">Co.</span><span class="nv"> </span><span class="s">is</span><span class="nv"> </span><span class="s">licensed</span><span class="nv"> </span><span class="s">as:</span><span class="nv">  </span><span class="s">Florida</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">Lender</span><span class="nv"> </span><span class="s">License</span><span class="nv"> </span><span class="s">#MLD1XXX,</span><span class="nv"> </span><span class="s">Georgia</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">Lender</span><span class="nv"> </span><span class="s">License</span><span class="nv"> </span><span class="s">#40XXX,</span><span class="nv"> </span><span class="s">Illinois</span><span class="nv"> </span><span class="s">Residential</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">License</span><span class="nv"> </span><span class="s">#MB.676XXXX,</span><span class="nv"> </span><span class="s">Indiana-DFI</span><span class="nv"> </span><span class="s">First</span><span class="nv"> </span><span class="s">Lien</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">Lending</span><span class="nv"> </span><span class="s">License</span><span class="nv"> </span><span class="s">#23XXX,</span><span class="nv"> </span><span class="s">Indiana-DFI</span><span class="nv"> </span><span class="s">Subordinate</span><span class="nv"> </span><span class="s">Lien</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">Lending</span><span class="nv"> </span><span class="s">License</span><span class="nv"> </span><span class="s">#23XXX,</span><span class="nv"> </span><span class="s">Kentucky</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">Company</span><span class="nv"> </span><span class="s">License</span><span class="nv"> </span><span class="s">#MC327XXX,</span><span class="nv"> </span><span class="s">Louisiana</span><span class="nv"> </span><span class="s">Residential</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">Lending</span><span class="nv"> </span><span class="s">License</span><span class="nv"> </span><span class="s">#MC327XXX,</span><span class="nv"> </span><span class="s">Maryland</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">Lender</span><span class="nv"> </span><span class="s">License</span><span class="nv"> </span><span class="s">#21XXX,</span><span class="nv"> </span><span class="s">Mississippi</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">Lender</span><span class="nv"> </span><span class="s">License</span><span class="nv"> </span><span class="s">#1124XXX,</span><span class="nv"> </span><span class="s">New</span><span class="nv"> </span><span class="s">Jersey</span><span class="nv"> </span><span class="s">Residential</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">Lender</span><span class="nv"> </span><span class="s">License</span><span class="nv"> </span><span class="s">#1124XXX,</span><span class="nv"> </span><span class="s">North</span><span class="nv"> </span><span class="s">Carolina</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">Lender</span><span class="nv"> </span><span class="s">License</span><span class="nv"> </span><span class="s">#L-159XXX,Ohio</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">Broker</span><span class="nv"> </span><span class="s">Act</span><span class="nv"> </span><span class="s">Certificate</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">Registration</span><span class="nv"> </span><span class="s">#MB.804XXX.000,</span><span class="nv"> </span><span class="s">Ohio</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">Loan</span><span class="nv"> </span><span class="s">Act</span><span class="nv"> </span><span class="s">Certificate</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">Registration</span><span class="nv"> </span><span class="s">#SM.501XXX.000,</span><span class="nv"> </span><span class="s">Pennsylvania</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">Lender</span><span class="nv"> </span><span class="s">License</span><span class="nv"> </span><span class="s">#44XXX,</span><span class="nv"> </span><span class="s">South</span><span class="nv"> </span><span class="s">Carolina-BFI</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">Lender/Servicer</span><span class="nv"> </span><span class="s">License</span><span class="nv"> </span><span class="s">#MLS</span><span class="nv"> </span><span class="s">ñ</span><span class="nv"> </span><span class="s">1124XXX,</span><span class="nv"> </span><span class="s">Tennessee</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">License</span><span class="nv"> </span><span class="s">#123XXX,</span><span class="nv"> </span><span class="s">Texas</span><span class="nv"> </span><span class="s">-</span><span class="nv"> </span><span class="s">SML</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">Banker</span><span class="nv"> </span><span class="s">Registration</span><span class="nv"> </span><span class="s">#123XXX,</span><span class="nv"> </span><span class="s">Virginia</span><span class="nv"> </span><span class="s">Broker</span><span class="nv"> </span><span class="s">License</span><span class="nv"> </span><span class="s">&amp;</span><span class="nv"> </span><span class="s">Virginia</span><span class="nv"> </span><span class="s">Lender</span><span class="nv"> </span><span class="s">License</span><span class="nv"> </span><span class="s">#MC-5XXX,</span><span class="nv"> </span><span class="s">West</span><span class="nv"> </span><span class="s">Virginia</span><span class="nv"> </span><span class="s">Mortgage</span><span class="nv"> </span><span class="s">Lender</span><span class="nv"> </span><span class="s">License</span><span class="nv"> </span><span class="s">#ML-33XXX.</span><span class="nv"> </span><span class="s">(www.nmlsconsumeraccess.org)"</span>
+  <span class="na">email</span><span class="pi">:</span> <span class="s2">"</span><span class="s">john.public@1stDemoMortgage.com"</span>
+  <span class="na">fax</span><span class="pi">:</span> <span class="s2">"</span><span class="s">208-854-7901"</span>
+  <span class="na">firstName</span><span class="pi">:</span> <span class="s2">"</span><span class="s">John"</span>
+  <span class="na">fullName</span><span class="pi">:</span> <span class="s2">"</span><span class="s">John</span><span class="nv"> </span><span class="s">Public"</span>
+  <span class="na">iconsUrl</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://as.velma.com/user/6560/settings/IndustryIcons-Email.jpg?versionId=b1igzL5Z8PKxAPtCKAWXjDND5_zyKfAD"</span>
+  <span class="na">id</span><span class="pi">:</span> <span class="s2">"</span><span class="s">6560"</span>
+  <span class="na">lastName</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Public"</span>
+  <span class="na">logoUrlEmail</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://as.velma.com/user/6560/settings/BusinessLogo-Email.jpg?versionId=5Lpg1zem3w9NWlHUEXdzSt0UX.TP8ESl"</span>
+  <span class="na">logoUrlPrint</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://as.velma.com/user/6560/settings/BusinessLogo.jpg?versionId=CB3Z3evdAPYuX2Lm9VN0lmIchz1mdvt0"</span>
+  <span class="na">nmls</span><span class="pi">:</span> <span class="s2">"</span><span class="s">4832167"</span>
+  <span class="na">officePhone</span><span class="pi">:</span> <span class="s2">"</span><span class="s">208-854-7900"</span>
+  <span class="na">photoUrlEmail</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://as.velma.com/user/6560/settings/PersonalPhoto-Email.jpg?versionId=1j4mqrg1GJUmL6R0.NGj2D7WyhVadcMw"</span>
+  <span class="na">photoUrlPrint</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://as.velma.com/user/6560/settings/PersonalPhoto.jpg?versionId=rYNI5cavuwaSpf3x3CTMG04BqztR8lhs"</span>
+  <span class="na">signatureUrl</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://www.velma.com/Images/EmptyDot.gif"</span>
+  <span class="na">state</span><span class="pi">:</span> <span class="s2">"</span><span class="s">ID"</span>
+  <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Senior</span><span class="nv"> </span><span class="s">Loan</span><span class="nv"> </span><span class="s">Officer"</span>
+  <span class="na">userName</span><span class="pi">:</span> <span class="s2">"</span><span class="s">demo10@velmatools.com"</span>
+  <span class="na">website</span><span class="pi">:</span> <span class="s2">"</span><span class="s">www.1stDemoMortgage.com"</span>
+  <span class="na">zip</span><span class="pi">:</span> <span class="s2">"</span><span class="s">83687"</span>
+</code></pre></div></div>
+<hr />
+<h3 id="partner-token-list-with-sample-data">Partner Token list with sample data</h3>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">partner</span><span class="pi">:</span>
+  <span class="na">address1</span><span class="pi">:</span> <span class="s2">"</span><span class="s">683</span><span class="nv"> </span><span class="s">Stony</span><span class="nv"> </span><span class="s">Radial"</span>
+  <span class="na">address1and2</span><span class="pi">:</span> <span class="s2">"</span><span class="s">683</span><span class="nv"> </span><span class="s">Stony</span><span class="nv"> </span><span class="s">Radial"</span>
+  <span class="na">addressSingleLine</span><span class="pi">:</span> <span class="s2">"</span><span class="s">683</span><span class="nv"> </span><span class="s">Stony</span><span class="nv"> </span><span class="s">Radial,</span><span class="nv"> </span><span class="s">Blairsburg,</span><span class="nv"> </span><span class="s">MA,</span><span class="nv"> </span><span class="s">09464"</span>
+  <span class="na">cellPhone</span><span class="pi">:</span> <span class="s2">"</span><span class="s">701-545-5779"</span>
+  <span class="na">city</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Blairsburg"</span>
+  <span class="na">cityStateZip</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Blairsburg,</span><span class="nv"> </span><span class="s">MA</span><span class="nv"> </span><span class="s">09464"</span>
+  <span class="na">companyName</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Tangdou</span><span class="nv"> </span><span class="s">Real</span><span class="nv"> </span><span class="s">Estate</span><span class="nv"> </span><span class="s">Advisors"</span>
+  <span class="na">email</span><span class="pi">:</span> <span class="s2">"</span><span class="s">josiah_nieves6872@proinbox.com"</span>
+  <span class="na">fax</span><span class="pi">:</span> <span class="s2">"</span><span class="s">701-845-8778"</span>
+  <span class="na">firstName</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Josiah"</span>
+  <span class="na">fullName</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Josiah</span><span class="nv"> </span><span class="s">Nieves"</span>
+  <span class="na">iconsUrl</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://www.velma.com/Images/EmptyDot.gif"</span>
+  <span class="na">id</span><span class="pi">:</span> <span class="s">22849</span>
+  <span class="na">lastName</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Nieves"</span>
+  <span class="na">logoUrlEmail</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://as.velma.com/user/6560/partner/22849/BusinessLogo-Email.jpg?versionId=OULMRxEmZQtRm3xspeB1xVzqj_W12g3j"</span>
+  <span class="na">logoUrlPrint</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://as.velma.com/user/6560/partner/22849/BusinessLogo.jpg?versionId=vpzHVtgpdODCyIxuXenZmh1R7VXoY1xJ"</span>
+  <span class="na">officePhone</span><span class="pi">:</span> <span class="s2">"</span><span class="s">701-745-7779"</span>
+  <span class="na">photoUrlEmail</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://as.velma.com/user/6560/partner/22849/PersonalPhoto-Email.jpg?versionId=mUHUTQbt9_mDfP6L07BCnW_HZMGIiFdn"</span>
+  <span class="na">photoUrlPrint</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://as.velma.com/user/6560/partner/22849/PersonalPhoto.jpg?versionId=EA.tvk6TIKpB5C5QXBFY0ORY.ks1aW4B"</span>
+  <span class="na">signatureUrl</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://www.velma.com/Images/EmptyDot.gif"</span>
+  <span class="na">state</span><span class="pi">:</span> <span class="s2">"</span><span class="s">MA"</span>
+  <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Real</span><span class="nv"> </span><span class="s">Estate</span><span class="nv"> </span><span class="s">Advisor"</span>
+  <span class="na">website</span><span class="pi">:</span> <span class="s2">"</span><span class="s">http://www.tangdou.com"</span>
+  <span class="na">zip</span><span class="pi">:</span> <span class="s2">"</span><span class="s">09464"</span>
+</code></pre></div></div>
+<hr />
+<h3 id="template-token-list-with-sample-data">Template Token list with sample data</h3>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">template</span><span class="pi">:</span>
+  <span class="na">contactArea</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://s3.amazonaws.com/velma-assets/library/27516/contactArea.html"</span>
+  <span class="na">description</span><span class="pi">:</span> <span class="s2">"</span><span class="s">VFS</span><span class="nv"> </span><span class="s">Open</span><span class="nv"> </span><span class="s">House</span><span class="nv"> </span><span class="s">Flyer</span><span class="nv"> </span><span class="s">1"</span>
+  <span class="na">disclaimerArea</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://s3.amazonaws.com/velma-assets/library/27516/disclaimerArea.html"</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s2">"</span><span class="s">PHE</span><span class="nv"> </span><span class="s">Open</span><span class="nv"> </span><span class="s">House</span><span class="nv"> </span><span class="s">Flyer"</span>
+  <span class="na">previewUrl</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://as.velma.com/library/29213/Preview.jpg?versionId=llwNzNBmseS_8MzuZCU1J0X7EnT4wZ1x"</span>
+  <span class="na">shareWithPartner</span><span class="pi">:</span> <span class="s2">"</span><span class="s">true"</span>
+  <span class="na">sku</span><span class="pi">:</span> <span class="s2">"</span><span class="s">29213"</span>
+  <span class="na">thumb</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://s3.amazonaws.com/velma-assets/library/29213/Thumb.JPG"</span>
+  <span class="na">url</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://as.velma.com/library/29213/OHF_1.html?versionId=EBwq8W2wNw72mdSFAJxmluoEgMu2ezoS"</span>
+</code></pre></div></div>
+<div class="alert alert-success" role="alert"><i class="fa fa-check-square-o"></i> <b>Tip:</b> For more technical information and additional Smart Tokens, refer to the <a href="product1/mydoc_vfs_tokenservice_supportedTags.html">Token Service Documentation:</a></div>
+
+
+
+    <div class="tags">
+        
+        <b>Tags: </b>
+        
+        
+        
+        <a href="tag_docs.html" class="btn btn-default navbar-btn cursorNorm" role="button">docs</a>
+        
+        
+        
+    </div>
+
+
+
+
+</div>
+
+<hr class="shaded"/>
+
+<footer>
+  <div class="row">
+    <div class="col-lg-12 footer">
+      &copy;2018 NSN Solutions, Inc.. All rights reserved. <br /> <span>Page last updated:</span> January 31, 2017<br/> Site last generated: Mar 19, 2018 <br />This
+      document is proprietary and confidential. No part of this document may be disclosed in any manner <br />without the prior written consent of NSN Solutions, Inc..
+      <p><img class="logo_footer" src=" images/company_logo.png " alt="Company logo" /></p>
+    </div>
+  </div>
+</footer>
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>
