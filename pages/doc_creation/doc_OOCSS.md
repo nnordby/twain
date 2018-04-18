@@ -1,7 +1,7 @@
 ---
 title: Introduction to Object Oriented CSS
 keywords: OOCSS, Object Oriented CSS, BEM, Docs, setup
-last_updated: April 27, 2017
+last_updated: April 18, 2018
 tags: [docs]
 summary: "When we work at scale, we often find that we spend a large amount of our time deciphering, maintaining, and refactoring CSS. This is the reason we should focus so much on things like architectures, naming conventions, methodologies, etc.: because writing CSS is easy; looking after it is not."
 sidebar: mydoc_sidebar
